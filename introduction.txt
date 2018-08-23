@@ -1,7 +1,7 @@
 My project is related to the online hardware parts selling in PHP,Javascript and Bootstrap.
 in this project we provided following things.
 
--Online Computer Hardware selling such as, keyboard, mouse,processor,CPU and so on.
+-Online Computer Hardware selling such as, keyboard, mouse,processor,CPU,Graphics Card and so on.
 -Online Money transaction also available.
 
 Thank You....
