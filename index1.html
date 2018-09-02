@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>  
+<title>B L Computers</title>
+  <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/indx.css">
+	
+
+	
+	 <link rel="stylesheet" href="css/second.css" type="text/css" media="all">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+  	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  
+  	<script src="file:///E:/Internship/Final/aos-master/dist/aos.css"></script>
+  <link rel="stylesheet" type="text/css" href="plugins/aos.css">
+
+ 
+ <style>
+ 
+	#hpa
+	{
+		box-sizing: content-box;
+		padding: 10px;
+		width: 190px;
+		border:double;
+		border-top-width: 0px;	
+	}
+	
+			hr {
+			width: 45%; 
+			margin-left: auto; 
+			margin-right: auto; 
+			border: solid;
+			margin-top: -12px;
+		}
+
+body
+    	{
+			
+        	overflow-x: hidden;
+    	}
+
+		.container1 {
+    padding: 25px;
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 40px;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-image: rgba(44, 62, 80,0.7);
+    padding-top: 0px;
+}
+
+
+.modal-content {
+    background-color: rgba(44, 62, 80,0.7);
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 65%; /* Could be more or less, depending on screen size */
+    border-radius:15px;
+}
+
+ 
+.close {
+    position: absolute;
+    right: 52px;
+    top: 19px;
+    font-size: 60px;
+    font-weight: bold;
+    color:black	;
+}
+
+.close:hover,
+.close:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 80%;
+    }
+}
+.btns {       
+-    background-color: blue;
+    color: white;
+      }
+
+
+ input[type=text],  input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+button:hover {
+    opacity:1;
+}
+
+.btnform {
+    padding: 14px 20px;
+    padding-left:20px;
+    background-color: blue;
+    border-radius:12px;
+    font-size:15px;
+    color:white;
+}
+
+.btnform, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+.btnform:hover, .signupbtn:hover {
+  text-color:white;
+  background-color:green;
+  cursor:pointer;
+}
+.Space
+{
+  	position:relative;
+  	top:10px;
+}
+.imgss{
+background-image:url(images/2.jpg);
+background-attachment:fixed;
+height:80%;
+padding:40px;
+width:100%;
+}
+.imgss1{
+background-image:url(images/1.jpg);
+background-attachment:fixed;
+width:100%;
+padding:200px;
+}
+
+
+
+</style>
+
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+				<a href="index.html" class="navbar-brand"style="color:blue; font-family:forte;">B L Computers </a>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-nav-demo">
+				<li><ul class="nav navbar-nav"></li>
+				<li><a href="#home" style="color:white;">Home</a></li>
+                <li><a href="product.html" style="color:white;">Products</a></li>
+                <li><a href="#ABOUTUS" style="color:white;">About Us</a></li>
+                 <li><a href="#REACHUS" style="color:white;">Contact Us</a></li>
+				 </ul>	
+				<ul class="nav navbar-nav navbar-right">
+				<li><a onclick="document.getElementById('id02').style.display='block'"style="color:white;" > SIgnIn</a></li>
+				<li><a  onclick="document.getElementById('id01').style.display='block'" style="color:white;"> SignUp</a></li>
+				
+				
+ 
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+<div class="Space" id="home">
+<div class="imgss1"> </div>
+
+</div>
+
+	   
+	
+	
+	
+
+
+<div class="Space" id="Products">
+		<br>
+		<br>
+		<br>
+		<div class="tab1"><H1><div 	ID="h" data-aos="zoom-in">Products</div></H1></div>
+		<br>
+		<br>
+		<div class="x">
+			<div class="container1">
+  				<div class="row">
+    				<div class="col-md-3" data-aos="flip-up">
+     					<div class="thumbnail">
+       						<img src="images/1.jpg" alt="Lights" style="width:100px height:100px">
+          					<div class="caption"><p style="font-size:20px;">Processor</p></div>
+							<p style="font-size:16px;color:red;text-align:center;">&#x20B9;   20,000 </p>
+							<center><button type='submit' name="submit3" class='btn btn-success' >Add Kart</button></center>
+							
+							
+      					</div>
+      				</div>
+    			<div class="col-md-3" data-aos="flip-up">
+    				<div class="thumbnail">
+       					<img src="images/1.jpg" alt="Nature" style="width:100px height:100px">
+          					<div class="caption"><p style="font-size:20px;">Harddisk</p></div>
+							<p style="font-size:16px;color:red;text-align:center;">&#x20B9;   20,000 </p>
+							
+							<center><button type='submit' name="submit3" class='btn btn-success' >Add Kart</button></center>
+							
+          			</div>
+      			</div>
+    			<div class="col-md-3" data-aos="flip-up">
+      				<div class="thumbnail">
+        				<img src="images/1.jpg" alt="Fjords" style="width:100px height:100px">
+          				<div class="caption"><p style="font-size:20px;">Keyboard</p></div>
+						<p style="font-size:16px;color:red;text-align:center;">&#x20B9;   20,000 </p>
+							
+							<center><button type='submit' name="submit3" class='btn btn-success' >Add Kart</button></center>
+        			</div>
+        		</div>
+				</div>
+
+				
+
+			
+			<div class="row">
+      		<div class="col-md-3" data-aos="flip-up">
+     				<div class="thumbnail">
+          			<img src="images/1.jpg" alt="Lights" style="width:100px height:100px">
+          			<div class="caption"><p style="font-size:20px;">mouse</p></div>
+					<p style="font-size:16px;color:red;text-align:center;">&#x20B9;  20,000 </p>
+							
+							<center><button type='submit' name="submit3" class='btn btn-success' >Add Kart</button></center>
+        		</div>
+        	</div>
+    		<div class="col-md-3" data-aos="flip-up">
+      			<div class="thumbnail">
+          			<img src="images/1.jpg" alt="Nature" style="width:100px height:100px">
+          			<div style="font-size:20px;"><p style="font-size:20px;">Cooling Fan</p></div>
+					<p style="font-size:16px;color:red;text-align:center;">&#x20B9;   20,000 </p>
+							
+							<center><button type='submit' name="submit3" class='btn btn-success' >Add Kart</button></center>
+          		</div>
+      		</div>
+			
+    		<div class="col-md-3" data-aos="flip-up" >
+      			<div class="thumbnail"> 
+          			<img src="images/1.jpg" alt="Fjords" style="width:100px height:100px">
+          			<div style="height:200%;" ><p style="font-size:20px;">VGA cable</p></div>
+					<p style="font-size:16px;color:red;text-align:center;">&#x20B9;   20,000 </p>
+							
+							<center><button type='submit' name="submit3" class='btn btn-success' >Add Kart</button></center>
+     			</div>
+  			</div>
+			</div>
+  			</div>
+		</div>
+	</div>
+	
+	<div class="Space" id="ABOUTUS">
+		<br>
+		<br>
+		<br>
+		<div class="tab1"><H1><div 	ID="ha" data-aos="zoom-in">ABOUT US</div></H1></div>
+		<br>
+		<br>
+		<div data-aos="fade-up">
+			<center>
+				<a href="index.php">
+					<img src="logo/1.png">
+				</a>
+			</center>
+		</div>
+		<br>
+		<br>
+		<br>
+		
+		<div class="imgss">
+		<div class="row counter">
+      			<div class="col-md-4" data-aos="fade-down">
+          			<center><b><p id="demo1" style="color:white;">0</p></b><div class="caption"><p style="color:white;">Daily Visitores</p></div></center>
+          		</div>
+    		    <div class="col-md-4" data-aos="fade-down">
+      				<center><b><p id="demo2"style="color:white;">0</p></b><div class="caption"><p style="color:white;">Total Selling</p></div></center>
+          		</div>
+    		    <div class="col-md-4" data-aos="fade-down">
+      				<center><b><p id="demo3" style="color:white;">0</p></b><div class="caption"><p style="color:white;">Total Services</p></div></center>
+     			</div>
+
+  		</div>
+		</div>
+  	</div>
+	<div class="Space" id="REACHUS">
+		<br>
+		<br>
+		<div class="tab1"><H1><div 	ID="hc" data-aos="zoom-in">CONTACT US</div></H1></div>
+		<br>
+		<br>
+		<br>
+		<div class="row counter">
+		
+	  		<div class="col-md-4 tab1" data-aos="zoom-out-up">
+          			<b><div class="cu1">ADDRESS:</div></b>
+          			
+          			<b><div class="cu1">EMAIL:computerhardwareparts.in</div></b>
+          			<b><div class="cu1">CONTACT NO:9098786745</div></b>
+          	</div>
+    	    <div class="col-md-4">
+    	    </div>
+			
+    	  
+  		</div>
+	
+  		<br>
+  		<br>
+  		<br>
+  		<br>
+		<center>
+			<div>
+				<a href="#" class="fa fa-facebook"></a>
+				<a href="#" class="fa fa-instagram"></a>
+				<a href="#" class="fa fa-twitter"></a>
+				<a href="#" class="fa fa-google"></a>
+				<a href="#" class="fa fa-youtube"></a>
+			</div>
+		</center>
+	</div>
+	<script>
+    	AOS.init();
+  	</script>
+	<script>
+		var x=0;
+		var delay=1000;
+		var i=0;
+		function pr()
+		{
+			document.getElementById("demo1").innerHTML = x ;
+			x++;
+		}
+		for(i=0; i<=200; i++)
+		{
+			delay=delay+10;
+			setTimeout(pr, delay);
+		}
+	</script>
+	<script>
+		var y=0;
+		var delay=1000;
+		var i=0;
+		function pr()
+		{
+			document.getElementById("demo2").innerHTML = y ;
+			y++;
+		}
+		for(i=0; i<=2501; i++)
+		{
+			delay=delay+1;
+			setTimeout(pr, delay);
+		}
+	</script>
+	<script>
+		var z=0;
+		var delay=1000;
+		var i=0;
+		function pr()
+		{
+			document.getElementById("demo3").innerHTML = z ;
+			z++;
+		}
+		for(i=0; i<=3600; i++)
+		{
+			delay=delay+1;
+			setTimeout(pr, delay);
+		}
+	</script>
+	
+
+
+
+
+
+
+ 
+
+
+
+
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+  <form class="modal-content" action="registration.php" method="POST">
+    <div class="container1">
+      <h1>Sign Up</h1>
+      <p>Please fill in this form to create an account.</p>
+      
+      <label for="email"><b>Email</b></label></br>
+      <input type="email" class="form-control" placeholder="Enter Email" name="email" required></br>
+
+      <label for="uname"><b>UserName</b></label></br>
+      <input type="text"  class="form-control" placeholder="Enter UserName" name="uname" required></br>
+
+      <label for="psw"><b>Password</b></label></br>
+      <input type="password"  class="form-control" placeholder="Enter Password" name="pswd" required>
+      
+
+      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a></p>
+
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="btnform">Cancel</button>
+        <button type="submit" class="btnform">Sign Up</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<div id="id02" class="modal">
+  <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+  <form class="modal-content" action="signinprocess.php" method="POST">
+    <div class="container1">
+      <h1>Sign In</h1>
+      <p>Please fill in this form to login an account.</p>
+      
+      <label for="email"><b>Email</b></label></br>
+      <input type="text"  class="form-control" placeholder="Enter Email" name="email" required></br>
+
+      <label for="psw"><b>Password</b></label></br>
+      <input type="password" class="form-control" placeholder="Enter Password" name="pswd" required></br>
+
+                 <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id02').style.display='none'" class="btnform">Cancel</button>
+        <button type="submit" class="btnform">Sign In</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+
+
+
+
+<script>
+
+window.onclick = function(event) {
+
+    if (event.target == document.getElementById('id01')) {
+        
+        document.getElementById('id01').style.display = "none";
+    }
+    if (event.target == document.getElementById('id02')) {
+        
+        document.getElementById('id02').style.display = "none";
+    }
+	
+     
+}
+</script>
+
+
+
+
+
+
+
+<script src="plugins/aos.js"></script>
+	<script type="text/javascript">
+		AOS.init();
+	</script>
+	<script src="js/jqueryqq.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
